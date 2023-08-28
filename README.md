@@ -1,4 +1,6 @@
-#### My Portfolio
+# My Portfolio
+
+My portfolio web application built with React
 
 ## Available Scripts
 
