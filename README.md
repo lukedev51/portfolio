@@ -1,6 +1,6 @@
 # Portfolio
 
-My portfolio web application built with React.
+My portfolio web application built with React and Styled-Components.
 
 ## Available Scripts
 
