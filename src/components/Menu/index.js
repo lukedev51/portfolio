@@ -9,7 +9,7 @@ const StyledMenu = styled.nav`
   justify-content: center;
   background: ${({ theme }) => theme.colors.darkGrey};
   transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
-  height: calc(100vh - 86px);
+  height: calc(100vh - 90px);
   width: 80%;
   text-align: left;
   padding: 2rem;

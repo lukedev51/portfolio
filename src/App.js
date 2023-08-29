@@ -13,7 +13,7 @@ const Wrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 126px);
+  height: calc(100vh - 130px);
   max-width: 860px;
   margin: 0 auto;
   width: 100%;
