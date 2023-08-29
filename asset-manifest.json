@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/lukejeffers/static/css/main.98a3181e.css",
+    "main.js": "/lukejeffers/static/js/main.0d3a312d.js",
+    "static/media/luke.jpg": "/lukejeffers/static/media/luke.63f9c47bb53491744e79.jpg",
+    "static/media/luke.png": "/lukejeffers/static/media/luke.28b690357ada78e3a49f.png",
+    "index.html": "/lukejeffers/index.html",
+    "main.98a3181e.css.map": "/lukejeffers/static/css/main.98a3181e.css.map",
+    "main.0d3a312d.js.map": "/lukejeffers/static/js/main.0d3a312d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98a3181e.css",
+    "static/js/main.0d3a312d.js"
+  ]
+}
