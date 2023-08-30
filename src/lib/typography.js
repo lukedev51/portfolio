@@ -14,9 +14,9 @@ export const Typography = styled.p`
       : props.variant === "h5"
       ? "1.2rem"
       : "1rem"};
-  font-weight: 600;
+  font-weight: ${props => props.variant === "body" ? 400 : 600};
   text-align: ${(props) => props.align || "left"};
   color: ${(props) =>
     props.theme.colors[props.color] || props.theme.colors.white};
-  padding: 1rem 0;
+  padding: ${props => ["h1", "h2", "h3"].includes(props.variant) ? "1rem 0" : "0.5rem 0"};
 `;

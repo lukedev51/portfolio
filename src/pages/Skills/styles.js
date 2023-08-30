@@ -10,7 +10,6 @@ export const CardWrapper = styled.div`
   }
   @media (max-width: 768px) {
     grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
   }
   @media (max-width: 640px) {
     grid-template-columns: repeat(2, 1fr);

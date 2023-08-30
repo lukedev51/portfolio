@@ -10,7 +10,7 @@ import { Container, Wrapper } from "../../lib/container";
 import { Typography } from "../../lib/typography";
 import resume from "../../assets/Luke_Jeffers.pdf";
 import { Download, RelativeWrapper } from "./styles";
-import { works } from "../../constants";
+import { NUM_0, works } from "../../constants";
 
 const Resume = () => {
   return (
@@ -31,11 +31,11 @@ const Resume = () => {
                 const props = {
                   className: "vertical-timeline-element--work",
                   contentStyle:
-                    idx === 0
+                    idx === NUM_0
                       ? { background: "rgb(33, 150, 243)", color: "#fff" }
                       : null,
                   contentArrowStyle:
-                    idx === 0
+                    idx === NUM_0
                       ? { borderRight: "7px solid  rgb(33, 150, 243)" }
                       : null,
                   icon: React.createElement(icon),

@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import { NEG_NUM_1, NUM_0 } from "../../constants";
 
 const StyledMenu = styled.nav`
   display: flex;
@@ -65,7 +66,7 @@ const links = [
 
 const Menu = ({ open, setOpen, id }) => {
   const isHidden = open ? true : false;
-  const tabIndex = isHidden ? 0 : -1;
+  const tabIndex = isHidden ? NUM_0 : NEG_NUM_1;
 
   return (
     <StyledMenu open={open} aria-hidden={!isHidden} id={id}>
