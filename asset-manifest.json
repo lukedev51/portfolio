@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.df40ce34.css",
-    "main.js": "/portfolio/static/js/main.bc45d220.js",
+    "main.css": "/portfolio/static/css/main.9d597eda.css",
+    "main.js": "/portfolio/static/js/main.b46acdaa.js",
+    "static/media/loungebuddy.png": "/portfolio/static/media/loungebuddy.0bbd9ab37e738375b147.png",
+    "static/media/worklete.png": "/portfolio/static/media/worklete.52c887ca4be0214948f7.png",
+    "static/media/lob.png": "/portfolio/static/media/lob.4e77dfd25d23363a524c.png",
+    "static/media/textiq.png": "/portfolio/static/media/textiq.d4b0fe1b02804fffcafd.png",
     "static/media/luke.jpg": "/portfolio/static/media/luke.63f9c47bb53491744e79.jpg",
+    "static/media/rolfsonoil.png": "/portfolio/static/media/rolfsonoil.3f9bc72fa3d4d5fb84ae.png",
     "static/media/Luke_Jeffers.pdf": "/portfolio/static/media/Luke_Jeffers.64518141ee568ba75089.pdf",
     "static/media/luke.png": "/portfolio/static/media/luke.28b690357ada78e3a49f.png",
     "index.html": "/portfolio/index.html",
-    "main.df40ce34.css.map": "/portfolio/static/css/main.df40ce34.css.map",
-    "main.bc45d220.js.map": "/portfolio/static/js/main.bc45d220.js.map"
+    "main.9d597eda.css.map": "/portfolio/static/css/main.9d597eda.css.map",
+    "main.b46acdaa.js.map": "/portfolio/static/js/main.b46acdaa.js.map"
   },
   "entrypoints": [
-    "static/css/main.df40ce34.css",
-    "static/js/main.bc45d220.js"
+    "static/css/main.9d597eda.css",
+    "static/js/main.b46acdaa.js"
   ]
 }
