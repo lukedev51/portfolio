@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Container = styled.div`
@@ -24,29 +25,6 @@ export const Wrapper = styled.div`
     li {
       list-style: none;
       padding: 0 15px;
-      a {
-        font-size: ${(props) => props.theme.fontSizes.medium};
-        text-decoration: none;
-        color: ${(props) => props.theme.colors.white};
-        display: inline-block;
-        position: relative;
-        &::after {
-          content: "";
-          position: absolute;
-          width: 100%;
-          transform: scaleX(0);
-          height: 2px;
-          bottom: 0;
-          left: 0;
-          background-color: ${(props) => props.theme.colors.white};
-          transform-origin: bottom right;
-          transition: transform 0.25s ease-out;
-        }
-        &:hover::after {
-          transform: scaleX(1);
-          transform-origin: bottom left;
-        }
-      }
     }
     @media (max-width: 768px) {
       display: none;
@@ -57,5 +35,29 @@ export const Wrapper = styled.div`
     @media (max-width: 768px) {
       display: block;
     }
+  }
+`;
+
+export const StyledLink = styled(Link)`
+  font-size: ${(props) => props.theme.fontSizes.medium};
+  text-decoration: none;
+  color: ${(props) => props.theme.colors.white};
+  display: inline-block;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(${props => props.selected ? 1 : 0});
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: ${(props) => props.theme.colors.white};
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  &:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
   }
 `;

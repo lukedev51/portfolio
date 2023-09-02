@@ -1,9 +1,10 @@
 import React, { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import FocusLock from "react-focus-lock";
+import { useLocation } from "react-router-dom";
 
 import logo from "../../assets/images/luke.png";
-import { Container, Wrapper } from "./styles";
+import { Container, StyledLink, Wrapper } from "./styles";
 import Burger from "../Burger";
 import Menu from "../Menu";
 import useOnClickOutside from "../../Hooks/useOnClickOutside";
@@ -30,6 +31,7 @@ const links = [
 const Header = () => {
   const [open, setOpen] = useState(false);
   const node = useRef();
+  const location = useLocation();
 
   const menuId = "main-menu";
 
@@ -45,7 +47,12 @@ const Header = () => {
           {links.map((link, idx) => {
             return (
               <li key={idx}>
-                <Link to={link.path}>{link.name}</Link>
+                <StyledLink
+                  to={link.path}
+                  selected={location.pathname === link.path}
+                >
+                  {link.name}
+                </StyledLink>
               </li>
             );
           })}
